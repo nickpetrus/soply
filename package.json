@@ -1,0 +1,26 @@
+{
+  "name": "soply",
+  "version": "0.1.0",
+  "description": "Kubernetes (k8s) secrets with SOPS as environment variables",
+  "main": "index.js",
+  "repository": "https://github.com/drmnick/soply",
+  "author": "Nick Petrus <nick@drmnick.com>",
+  "license": "Apache 2.0",
+  "private": false,
+  "scripts": {
+    "test": "mocha 'src/**/*.spec.js'"
+  },
+  "bin": {
+    "soply": "bin/soply"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "glob": "^7.1.3",
+    "yaml": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.2.0"
+  }
+}
